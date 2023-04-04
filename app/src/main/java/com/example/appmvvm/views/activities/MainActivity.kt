@@ -1,4 +1,4 @@
-package com.example.appmvvm
+package com.example.appmvvm.views.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
