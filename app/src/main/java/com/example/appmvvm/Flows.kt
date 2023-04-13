@@ -204,7 +204,7 @@ fun cancelFlow() {
 
 fun coldFlow() {
     println("FLOWS ARE COLD")
-    //this above means a code block doesnt get execute their method intern until the collects methods is triggered
+    //this above means a code block doesnt get execute their  intern method until the collects method is triggered
     runBlocking {
         val dataFlow = getDataByFlow()
         println("Procesando")
