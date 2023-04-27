@@ -5,9 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.compose.ui.platform.ComposeView
+import androidx.fragment.app.viewModels
 import com.example.appmvvm.views.base.BaseFragment
+import com.example.appmvvm.views.base.movies.state.MovieViewState
 
-class MiddleFragment : BaseFragment() {
+class MiddleFragment : BaseFragment<MovieViewState>() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -20,4 +22,6 @@ class MiddleFragment : BaseFragment() {
             }
         }
     }
+
+    override val viewModel: MiddleViewModel by viewModels()
 }

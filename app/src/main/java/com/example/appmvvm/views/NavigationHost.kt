@@ -7,9 +7,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.appmvvm.views.compose.InitScreen
 import com.example.appmvvm.views.compose.MiddleScreen
 import com.example.appmvvm.views.compose.ThirdScreen
-import com.example.appmvvm.views.main.InitFragment
-import com.example.appmvvm.views.main.MiddleFragment
-import com.example.appmvvm.views.main.ThirdFragment
 
 @Composable
 fun NavigationHost() {

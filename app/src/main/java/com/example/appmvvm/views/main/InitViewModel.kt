@@ -27,7 +27,7 @@ class InitViewModel @Inject constructor(
     private fun movieRequest() {
         _viewData.value = MovieViewState.Loading
         viewModelScope.let {
-            _viewData.value = movieInteractor.getMoviesList()
+           // _viewData.value = movieInteractor.getMoviesList()
         }
     }
 
