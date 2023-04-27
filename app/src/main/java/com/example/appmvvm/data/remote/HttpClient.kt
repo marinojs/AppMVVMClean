@@ -1,11 +1,12 @@
 package com.example.appmvvm.data.remote
 
 import com.example.appmvvm.data.remote.model.ErrorResponse
+import javax.inject.Inject
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import retrofit2.Response
 
-class HttpClient {
+class HttpClient @Inject constructor() {
 
     suspend fun <T> safeApiCall(
         dispatcher: CoroutineDispatcher,

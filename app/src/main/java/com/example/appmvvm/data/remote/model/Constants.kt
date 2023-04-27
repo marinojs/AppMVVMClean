@@ -25,4 +25,9 @@ object Constants {
     const val SERIALIZED_VOTE_AVERAGE = "vote_average"
     const val SERIALIZED_VOTE_COUNT = "vote_count"
 
+
+    //Movie api constants
+    const val API_KEY = "aac26ac67bb98d13ab483af6566b28e2"
+    const val LANGUAGE = "en-US"
+
 }

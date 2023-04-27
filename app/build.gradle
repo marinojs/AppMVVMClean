@@ -18,6 +18,8 @@ android {
         vectorDrawables {
             useSupportLibrary true
         }
+
+      //  buildconfigField "String" "BASE_URL" "https://api.themoviedb.org/3/"
     }
 
     buildTypes {
@@ -74,4 +76,14 @@ dependencies {
     implementation "com.google.code.gson:gson:$gson_version"
     //Navigation
     implementation "androidx.navigation:navigation-compose:$nav_compose"
+
+    //Hilt
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+
+    //ViewModel Extensions
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewmodel_ext"
+
+    //Fragment Extensions
+    implementation "androidx.fragment:fragment-ktx:$fragment_ext"
+
 }
